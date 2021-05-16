@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>CSV to JSON js</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+  <main>
+    <section class="container bg-primary">
+      <div class="row align-items-center no-gutters" style="padding: 20px 0px 20px 40px;">
+        <div class="col-xl-5 col-lg-6 col-md-12" style="padding: 20px 0px 0px 0px;">
+          <div class="py-5 py-lg-0">
+            <h1 class="text-white display-4 font-weight-bold"> Welcome to Csv / Json </h1>
+            <p class="text-white-50 mb-4 lead"> Use your csv file to export to JSON </p>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
+          <label class="form-label"> CSV: </label>
+          <form class="form">
+            <textarea class="csvToBeConverted form-control" rows="1" cols="25" placeholder="Type your csv model"></textarea>
+            <br>
+            <button type="submit" class="btn btn-success">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="container-sm">
+      <label class="form-label"> Your result is: </label>
+      <span class="result">
+      </span>
+    </section>
+  </main>
+  <script src='./assets/js/main.js'></script>
+</body>
+</html>
